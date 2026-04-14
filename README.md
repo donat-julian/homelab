@@ -14,9 +14,14 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 - Statische IP-Konfiguration (Netplan)
 - Firewall (ufw) - default deny, nur SSH und HTTP erlaubt
 - Webserver (nginx)
+- Konfigurationsdateien dokumentiert (nginx, firewall, netplan)
+- Nmap Security Scan durchgeführt
+- Kali Linux VM aufgesetzt für Penetration Testing
 
 ## Geplant
 
 - Monitoring mit Grafana + Prometheus
-- Zweite VM (Kali Linux) für Sicherheitstests
-- Ansible Playbooks für automatisches SetupUbuntu Server Homelab - Sysadmin Übungsumgebung
+- Ansible Playbooks für automatisches Server-Setup
+- Weitere Sicherheitstests mit Kali Linux (Metasploit, Nikto)
+- VPN-Server aufsetzen (WireGuard)
+- Zweiter Ubuntu Server als Test-Ziel
