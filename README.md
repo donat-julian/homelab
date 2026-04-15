@@ -38,7 +38,7 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 ![Grafana Datenquelle](docs/screenshots/Grafana_Datenquelle.png)
 
 ### WireGuard
-![WireGuard](docs/screenshots/WireGuard.png)
+![WireGuard](docs/screenshots/Wireguard.png)
 
 ### Ping_WireGuard
-![Ping_WireGuard](docs/screenshots/Ping_WireGuard.png)
+![Ping_WireGuard](docs/screenshots/Ping_Wireguard.png)
