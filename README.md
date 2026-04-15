@@ -19,10 +19,10 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 - Kali Linux VM aufgesetzt für Penetration Testing
 - Monitoring Stack: Prometheus + Grafana (Dashboard: Node Exporter Full)
 - ✅ VPN-Server (WireGuard) - Windows Client verbunden
+- Ansible Playbooks für automatisches Server-Setup
 
 ## Geplant
 
-- Ansible Playbooks für automatisches Server-Setup
 - Weitere Sicherheitstests mit Kali Linux (Metasploit, Nikto)
 - Zweiter Ubuntu Server als Test-Ziel
 
@@ -42,3 +42,6 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 
 ### Ping_WireGuard
 ![Ping_WireGuard](docs/screenshots/Ping_Wireguard.png)
+
+### Ansible Playbook
+![Ansible Playbook](docs/screenshots/Ansible_Playbook.png)
