@@ -17,10 +17,10 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 - Konfigurationsdateien dokumentiert (nginx, firewall, netplan)
 - Nmap Security Scan durchgeführt
 - Kali Linux VM aufgesetzt für Penetration Testing
+- Monitoring Stack: Prometheus + Grafana (Dashboard: Node Exporter Full)
 
 ## Geplant
 
-- Monitoring mit Grafana + Prometheus
 - Ansible Playbooks für automatisches Server-Setup
 - Weitere Sicherheitstests mit Kali Linux (Metasploit, Nikto)
 - VPN-Server aufsetzen (WireGuard)
