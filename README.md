@@ -25,3 +25,14 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 - Weitere Sicherheitstests mit Kali Linux (Metasploit, Nikto)
 - VPN-Server aufsetzen (WireGuard)
 - Zweiter Ubuntu Server als Test-Ziel
+
+## Screenshots
+
+### Grafana Monitoring Dashboard
+![Grafana Dashboard](docs/screenshots/Grafana_Dashboard.png)
+
+### Nginx Webserver
+![Nginx](docs/screenshots/Nginx.png)
+
+### Grafana Datenquelle
+![Grafana Datenquelle](docs/screenshots/Grafana_Datenquelle.png)
