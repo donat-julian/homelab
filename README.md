@@ -18,12 +18,12 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 - Nmap Security Scan durchgeführt
 - Kali Linux VM aufgesetzt für Penetration Testing
 - Monitoring Stack: Prometheus + Grafana (Dashboard: Node Exporter Full)
+- ✅ VPN-Server (WireGuard) - Windows Client verbunden
 
 ## Geplant
 
 - Ansible Playbooks für automatisches Server-Setup
 - Weitere Sicherheitstests mit Kali Linux (Metasploit, Nikto)
-- VPN-Server aufsetzen (WireGuard)
 - Zweiter Ubuntu Server als Test-Ziel
 
 ## Screenshots
@@ -36,3 +36,9 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 
 ### Grafana Datenquelle
 ![Grafana Datenquelle](docs/screenshots/Grafana_Datenquelle.png)
+
+### WireGuard
+![WireGuard](docs/screenshots/WireGuard.png)
+
+### Ping_WireGuard
+![Ping_WireGuard](docs/screenshots/Ping_WireGuard.png)
