@@ -1,0 +1,29 @@
+---
+- name: Ubuntu Server Grundkonfiguration
+  hosts: ubuntu_server
+  become: yes
+
+  tasks:
+    - name: System aktualisieren
+      apt:
+        update_cache: yes
+        upgrade: yes
+
+    - name: Nginx installieren
+      apt:
+        name: nginx
+        state: present
+
+    - name: UFW aktivieren
+      ufw:
+        state: enabled
+
+    - name: SSH erlauben
+      ufw:
+        rule: allow
+        name: OpenSSH
+
+    - name: HTTP erlauben
+      ufw:
+        rule: allow
+        name: "Nginx HTTP"
