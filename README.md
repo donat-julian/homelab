@@ -99,3 +99,6 @@ Bereichen zu sammeln und anzuwenden:
 
 ### Docker Compose
 ![Docker Compose](docs/screenshots/docker_compose.png)
+
+### Fail2ban Metasploit
+![Fail2ban Metasploit](docs/screenshots/Fail2ban_Metasploit.png)
