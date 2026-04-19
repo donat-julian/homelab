@@ -70,3 +70,6 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 
 ### Netzwerkdiagramm
 ![Netzerkdiagramm](docs/screenshots/Netzwerkdiagramm.png)
+
+### Docker Container
+![Docker Container](docs/screenshots/docker_container.png)
