@@ -19,17 +19,29 @@ Bereichen zu sammeln und anzuwenden:
 
 ## Was bisher eingerichtet wurde
 
-- SSH-Server (openssh)
-- Statische IP-Konfiguration (Netplan)
-- Firewall (ufw) - default deny, nur SSH und HTTP erlaubt
-- Webserver (nginx)
-- Konfigurationsdateien dokumentiert (nginx, firewall, netplan)
-- Nmap Security Scan durchgeführt
-- Kali Linux VM aufgesetzt für Penetration Testing
-- Monitoring Stack: Prometheus + Grafana (Dashboard: Node Exporter Full)
-- ✅ VPN-Server (WireGuard) - Windows Client verbunden
-- Ansible Playbooks für automatisches Server-Setup
-- ✅ Docker - Nginx und Grafana als Container
+### 🌐 Netzwerk & System
+- **SSH-Server** (openssh) - Sichere Fernverwaltung des Servers
+- **Statische IP-Konfiguration** (Netplan) - Stabile Erreichbarkeit im Heimnetzwerk
+- **Webserver** (nginx) - Hosting von Webinhalten
+
+### 🔒 Sicherheit
+- **Firewall** (ufw) - Default deny, nur SSH und HTTP erlaubt
+- **Security Header** (nginx) - Schutz gegen gängige Web-Angriffe
+- **Nmap Scan** - Netzwerk-Reconnaissance und Port-Analyse
+- **Nikto Scan** - Webserver auf Schwachstellen geprüft und behoben
+- **Kali Linux VM** - Dedizierte Penetration Testing Umgebung
+
+### 📊 Monitoring
+- **Prometheus + Grafana** - Echtzeit-Überwachung von CPU, RAM, Netzwerk und Disk
+
+### 🔐 VPN
+- **WireGuard** - Moderner VPN-Server, Windows Client erfolgreich verbunden
+
+### ⚙️ Automatisierung
+- **Ansible Playbook** - Automatische Server-Grundkonfiguration (nginx, ufw, updates)
+
+### 🐳 Containerisierung
+- **Docker** - Nginx und Grafana als isolierte Container betrieben
 
 ## Voraussetzungen
 
