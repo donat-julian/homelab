@@ -1,6 +1,15 @@
 # Homelab
 
-Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministration.
+Dieses Projekt dokumentiert den Aufbau und Betrieb eines virtuellen Homelabs 
+auf Basis von VirtualBox. Ziel ist es, praktische Erfahrungen in folgenden 
+Bereichen zu sammeln und anzuwenden:
+
+- Systemadministration
+- Netzwerkmanagement
+- IT-Sicherheit
+- Automatisierung
+- Containerisierung (Docker)
+
 
 ## Umgebung
 
