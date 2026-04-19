@@ -20,8 +20,12 @@ services:
   prometheus:
     image: prom/prometheus
     container_name: prometheus-container
+    extra_hosts:
+      - "host-gateway:host-gateway"
     ports:
       - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
     restart: always
 
 volumes:
