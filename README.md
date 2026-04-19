@@ -20,6 +20,7 @@ Persönliches Homelab-Projekt zur Übung von Sysadmin- und Netzwerkadministratio
 - Monitoring Stack: Prometheus + Grafana (Dashboard: Node Exporter Full)
 - ✅ VPN-Server (WireGuard) - Windows Client verbunden
 - Ansible Playbooks für automatisches Server-Setup
+- ✅ Docker - Nginx und Grafana als Container
 
 ## Voraussetzungen
 
