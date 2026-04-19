@@ -94,3 +94,8 @@ Bereichen zu sammeln und anzuwenden:
 
 ### Docker Container
 ![Docker Container](docs/screenshots/docker_container.png)
+
+### Docker Compose
+![Docker Compose](docs/screenshots/docker_compose.png)
+
+![Docker Compose](docs/screenshots/docker_compose.png)
