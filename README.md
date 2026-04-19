@@ -97,5 +97,3 @@ Bereichen zu sammeln und anzuwenden:
 
 ### Docker Compose
 ![Docker Compose](docs/screenshots/docker_compose.png)
-
-![Docker Compose](docs/screenshots/docker_compose.png)
