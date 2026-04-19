@@ -30,6 +30,8 @@ Bereichen zu sammeln und anzuwenden:
 - **Nmap Scan** - Netzwerk-Reconnaissance und Port-Analyse
 - **Nikto Scan** - Webserver auf Schwachstellen geprüft und behoben
 - **Kali Linux VM** - Dedizierte Penetration Testing Umgebung
+- **Fail2ban** - Automatische IP-Sperrung bei Brute-Force Angriffen
+- **Metasploit** - Brute-Force Simulation und Abwehr getestet
 
 ### 📊 Monitoring
 - **Prometheus + Grafana** - Echtzeit-Überwachung von CPU, RAM, Netzwerk und Disk
