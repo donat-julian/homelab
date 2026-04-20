@@ -32,6 +32,7 @@ Bereichen zu sammeln und anzuwenden:
 - **Kali Linux VM** - Dedizierte Penetration Testing Umgebung
 - **Fail2ban** - Automatische IP-Sperrung bei Brute-Force Angriffen
 - **Metasploit** - Brute-Force Simulation und Abwehr getestet
+- **SSL/HTTPS** - Selbst signiertes Zertifikat (in Produktion würde Let's Encrypt verwendet)
 
 ### 📊 Monitoring
 - **Prometheus + Grafana** - Echtzeit-Überwachung von CPU, RAM, Netzwerk und Disk
