@@ -110,5 +110,5 @@ Bereichen zu sammeln und anzuwenden:
 ![HTTPS/SSL](docs/screenshots/HTTPS_SSL.png)
 
 ### Rerverse Proxy Grafana
-![Reverse Proxy Grafana](docs/screenshot/Reverse_Proxy_Grafana.png)
+![Reverse Proxy Grafana](docs/screenshots/Reverse_Proxy_Grafana.png)
 
