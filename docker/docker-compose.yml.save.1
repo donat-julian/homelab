@@ -13,17 +13,7 @@ services:
       - /etc/ssl/private/nginx-selfsigned.key:/etc/ssl/private/nginx-selfsigned.key
     restart: always
 
-  grafana:
-    image: grafana/grafana
-    container_name: grafana-container
-    ports:
-      - "3000:3000"
-    environment:
-      - GF_SERVER_ROOT_URL=https://192.168.2.100/grafana/
-      - GF_SERVER_SERVE_FROM_SUB_PATH=true
-    volumes:
-      - grafana-data:/var/lib/grafana
-    restart: always
+  
 
   prometheus:
     image: prom/prometheus
