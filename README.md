@@ -23,6 +23,7 @@ Bereichen zu sammeln und anzuwenden:
 - **SSH-Server** (openssh) - Sichere Fernverwaltung des Servers
 - **Statische IP-Konfiguration** (Netplan) - Stabile Erreichbarkeit im Heimnetzwerk
 - **Webserver** (nginx) - Hosting von Webinhalten
+- **Nginx Reverse Proxy** - Grafana über HTTPS erreichbar unter /grafana/
 
 ### 🔒 Sicherheit
 - **Firewall** (ufw) - Default deny, nur SSH und HTTP erlaubt
@@ -45,6 +46,7 @@ Bereichen zu sammeln und anzuwenden:
 
 ### 🐳 Containerisierung
 - **Docker** - Nginx und Grafana als isolierte Container betrieben
+- **Docker Compose** - Alle Container zentral verwaltet mit automatischem Neustart
 
 ## Voraussetzungen
 
@@ -106,4 +108,7 @@ Bereichen zu sammeln und anzuwenden:
 
 ### HTTPS/SSL
 ![HTTPS/SSL](docs/screenshots/HTTPS_SSL.png)
+
+### Rerverse Proxy Grafana
+![Reverse Proxy Grafana](docs/screenshot/Reverse_Proxy_Grafana.png)
 
