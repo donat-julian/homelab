@@ -1,0 +1,9 @@
+# Editor-Backups
+*.save
+*.save.*
+*.swp
+*~
+
+# Secrets
+.env
+*.key
