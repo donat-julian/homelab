@@ -17,9 +17,7 @@ services:
     image: grafana/grafana
     container_name: grafana-container
     ports:
-      # Nur lokal: Zugriff von außen ausschließlich über den nginx Reverse Proxy
-      # (Docker-Portfreigaben umgehen sonst die ufw-Regeln)
-      - "127.0.0.1:3000:3000"
+      - "3000:3000"
     environment:
       - GF_SERVER_ROOT_URL=https://192.168.2.100/grafana/
       - GF_SERVER_SERVE_FROM_SUB_PATH=true
@@ -33,7 +31,7 @@ services:
     extra_hosts:
       - "host-gateway:host-gateway"
     ports:
-      - "127.0.0.1:9090:9090"
+      - "9090:9090"
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
     restart: always

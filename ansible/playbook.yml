@@ -14,7 +14,10 @@
         name: nginx
         state: present
 
-    # Regeln vor dem Aktivieren setzen, sonst sperrt sich Ansible selbst aus
+    - name: UFW aktivieren
+      ufw:
+        state: enabled
+
     - name: SSH erlauben
       ufw:
         rule: allow
@@ -24,17 +27,3 @@
       ufw:
         rule: allow
         name: "Nginx HTTP"
-
-    - name: Eingehenden Traffic standardmäßig blockieren
-      ufw:
-        direction: incoming
-        policy: deny
-
-    - name: Ausgehenden Traffic standardmäßig erlauben
-      ufw:
-        direction: outgoing
-        policy: allow
-
-    - name: UFW aktivieren
-      ufw:
-        state: enabled
